@@ -11,6 +11,23 @@
 ## Project Structure
 
 ```
+.
+├── src/
+│   ├── config/
+│   │   └── db.ts                # Database configuration
+│   ├── controllers/
+│   │   └── Controllers.ts      # Controllers handling route logic
+│   ├── models/
+│   │   └── models.ts           # Data models (Mongoose schemas)
+│   ├── routes/
+│   │   ├── adminRoutes.ts      # Route definitions for admin-related endpoints
+│   │   └── userRoutes.ts       # Route definitions for user-related endpoints
+│   ├── app.ts                  # Entry point of the application
+├── .env                        # Environment variables
+├── .gitignore                  # Git ignore file
+├── package.json                # Node.js dependencies
+├── tsconfig.json               # TypeScript configuration
+└── README.md                   # Project documentation
 
 ```
 
