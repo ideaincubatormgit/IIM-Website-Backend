@@ -3,8 +3,8 @@ import express from "express";
 const router = express.Router();
 
 // Define routes for user-related endpoints
-router.get("/", (req, res) => {
-  res.send("User route: GET /");
+router.get("/events", (req, res) => {
+  res.send("This route should be posting events");
 });
 
 router.post("/", (req, res) => {
